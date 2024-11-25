@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acesso Bloqueado</title>
+    <style>
+        /* Corpo da página */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+        }
+
+        /* Container centralizado */
+        .container {
+            background-color: #020202c4;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Título da página */
+        h1 {
+            color: #ffffff;
+            font-size: 2.5rem;
+            margin: 20px 0;
+        }
+
+        /* Parágrafo */
+        p {
+            font-size: 1.25rem;
+        }
+
+        /* Código de erro */
+        .error-code {
+            font-size: 3rem;
+            color: #f80909;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        /* Imagem */
+        img {
+            width: 100%;
+            max-width: 400px;
+            margin-top: 20px;
+        }
+
+        /* Logo fixada no canto inferior esquerdo */
+        .logo {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 20;
+        }
+
+        .logo img {
+            width: 250px;
+            height: auto;
+        }
+
+        /* Estilos específicos para telas menores */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            .error-code {
+                font-size: 2.5rem;
+            }
+            p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="error-code">
+            <strong>ACESSO NEGADO!</strong>
+        </div>
+        <h1>Conteúdo não liberado para acesso.</h1>
+        <p>Procure o administrador da rede.</p>
+        
+    </div>
+    
+    <!-- Imagem principal -->
+    <img src="bloqueado.jpg" alt="Imagem de bloqueio">
+    
+    <!-- Logo da empresa -->
+    <div class="logo">
+        <img src="im.jpg" alt="Logo da Empresa">
+    </div>
+
+    <div class="logo">
+        <a href="https://wa.me/556599380489?text=Olá, gostaria de verificar sobre um site bloqueado!" target="_blank">
+            <img src="img/logo.png" alt="Numero para contato" >
+        </a>
+    </div>
+    
+    
+
+</body>
+</html>
